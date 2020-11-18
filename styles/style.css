@@ -14,11 +14,13 @@ div {
 }
 
 .header {
+  display: block;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  display: block;
-  position: relative;
+  background: #f2f2f2;
+  overflow: hidden;
   /* parameters for the header section */
 }
 
@@ -30,96 +32,101 @@ div {
   font-style: bold;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-img {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 765px;
-    height: 608px;
-    z-index: 0;
-}
-
-.header__square-pic {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 568px;
-  height: 568px;
-  background-color: cornflowerblue;
-  margin-top: 64px;
-  z-index: -1;
-}
-
-.header__logo {
+.logo_place_header {
   width: 154px;
   height: 31px;
   margin-left: 64px;
   margin-top: 30px;
+  }
+
+
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__square-pic {
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  margin-top: 64px;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+}
+
+.header__square-img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 765px;
+  height: 608px;
+  z-index: 0;
 }
 
 .header__text {
-    display: block;
-    text-align: left;
-    position: absolute;
-    margin-left: 64px;
-    margin-bottom: 30px;
-    width: 388px;
-    line-height: 25px;
-    font-size: 18px;
+  display: block;
+  text-align: left;
+  position: absolute;
+  margin-left: 64px;
+  margin-bottom: 30px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .header__text::after {
-    content: " Learn more→";
-    color: cornflowerblue;
+  content: " Learn more→";
+  color: #2f80ed;
 }
 
-/*Description Section*/
-.container {
+/***************Description Block***************/
+.description {
+  position: relative;
   display: flex;
-  padding: 20px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  align-content: center;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.description__header__brief {
+.two-columns {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__header__brief {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
-  color: cornflowerblue;
+  color: #2f80ed; 
 }
 
-.description__paragraph__text {
+.two-columns__main-text {
   flex-direction: column;
   width: 80%;
   min-width: 784px;
-}
-
-.description__paragraph__one {
-  margin-top: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-style: normal;
-}
-
-.description__paragraph__two {
-  margin-bottom: 30px;
-  line-height: 34px;
-  font-size: 24px;
-  font-style: normal;
-}
-
-.description__paragraph__three {
-  margin-top: 30px;
   line-height: 34px;
   font-size: 24px;
   font-style: bold;
 }
 
-/* Digits block */
+.two-columns__paragraph {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-top: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+/***************Digits V2***************/
+
 .table {
   display: table;
   flex-wrap: wrap;
@@ -139,7 +146,6 @@ div {
   font-size: 60px;
   font-style: bold;
   margin-bottom: 20px;
-  margin-top: 100px;
   text-align: center;
 }
 
@@ -152,7 +158,7 @@ div {
 }
 
 .table__heading {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
@@ -172,32 +178,30 @@ ul {
   padding: 0;
 }
 
-li {
-  display: inline-block;
-}
-
 .table-cell_row {
   display: inline-flex;
   width: 250px;
   margin: 10px 10px;
 }
 
-/*Feynman Block - Attempt but could not align it correctly*/
+/***************Feynman Block***************/
 .feynman__block {
-  display: flex;
+  display: block;
   height: 790px;
   justify-content: center;
   position: relative;
   margin-top: 100px;
-  margin-bottom: 100px;
+  background: #f2f2f2;
 }
 
 .feynman__title {
   position: relative;
   text-align: center; 
   width: 775px;
-  margin-top: 100px;
+  top: 100px;
   margin-bottom: 70px;
+  margin-right: auto;
+  margin-left: auto;
   line-height: 1.15;
   font-size: 120px;
   font-style: bold;
@@ -208,21 +212,21 @@ li {
   position: relative;
   text-align: center;
   line-height: 51px;
+  top: 70px; 
   font-size: 36px;
   font-style: normal;
   z-index: 1;
 }
 
 .feynman__link {
-  display: block;
-  position: inherit;
-  text-align: right;
+  display: inline-block;
+  position: absolute;
   font-size: 36px;
   font-style: normal;
   text-decoration: none;
   color: black;
   margin-right: 48px;
-  top: 50%;
+  right: 0;
 }
 
 .feynman__link::after {
@@ -240,24 +244,24 @@ li {
   z-index: 0;
 }
 
-/* including elements with key-value modifiers Kaufman Attempt but could not align it correctly */
-.kaufman__content {
+/**************Kaufman Block**************/
+/* including elements with key-value modifiers */
+.kaufman-container {
   display: block;
   position: relative;
   align-items: center;
   justify-content: center;
-  background: #000;
-  padding-bottom: 90px;
-  padding-top: 90px;
-  padding-left: auto;
-  padding-right: auto;
+  background-color:  #1f1f1f;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  z-index: 0;
 }
 
-.kaufman__headers {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-top: 80px;
 }
 
 .title__theme_dark { 
@@ -268,6 +272,9 @@ li {
   font-style: bold;
   width: 60%;
   color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 90px;
 }
 
 .subtitle__theme_dark {
@@ -276,33 +283,10 @@ li {
   font-size: 24px;
   font-style: normal;
   width: 60%;
-  margin-bottom: 80px;
   margin-top: 20px;
   color: white;
-}
-
-.table__cell_theme_dark {
-  display: inline-flex;
-  list-style: none;
-  width: 200px;
-  color: white;
-  margin-top: 80px;
-  margin: 50px 50px;
-  z-index: 1;
-}
-
-.cell__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-style: normal;
-  z-index: 1;
-}
-
-.cell__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
-  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .kaufman__triangle {
@@ -311,51 +295,85 @@ li {
   right: -210px;
   height: 877px;
   width: 877px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .table__theme_dark {
-  display: table;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-gap: 20px;
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 90px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.table__cell_theme_dark {
-  display: inline-flex;
+.table__heading__theme_dark {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-style: bold;
 }
 
-/* Footer - Attempt but could not align it correctly*/
-.place__footer__logo {
-  height: 35px;
-  width: 183px;
+.table__text__theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
 }
-
+/**************Footer Block**************/
 .footer {
   display: block;
-  background: black;
+  position: relative;
+  background:  #1f1f1f;
   min-height: 350px;
   padding-bottom: 40px;
   padding: 0 80px;
 }
 
-.footer__table {  
+.footer-flex__container {
   display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-    
-.footer__cell__header {
-  color: white;
-  line-height: 45px;
-  font-size: 18px;
-  font-style: bold;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: normal;
+  align-content: normal;
 }
 
-.links {
-  margin-top: 20px;
+.footer-section {
+  display: block;
+  background:  #1f1f1f;
+  flex-basis: 711px;
+  width: 90%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-item {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-left: 100px;
+}
+
+.footer-logo__place {
+  display: flex;
+  height: 35px;
+  width: 183px;
+}
+
+.footer-links__table {
+  display: block;
+  position: relative;
+  justify-content: right;
+  align-items: right;
+}
+
+.footer-links__social {
   color: white;
   line-height: 30px;
   font-size: 18px;
@@ -363,16 +381,44 @@ li {
   text-decoration: none;
 }
 
-.cell__footer {
-  width: 16px;
+.footer-header__social {
+  color: white;
+  line-height: 45px;
+  font-size: 18px;
+  font-style: bold;
 }
 
-.content__copypright {
+.footer-images__social {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer-links__info {
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-header__info {
+  color: white;
+  line-height: 45px;
+  font-size: 18px;
+  font-style: bold;
+  margin-bottom: 20px;
+} 
+
+.footer-copyright {
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
   color: white;
-  align-items: baseline;
   margin-top: 18px;
   margin-bottom: 18px;
+}
+
+a:hover {
+  color: #2f80ed;
 }
