@@ -196,7 +196,7 @@ ul {
 
 .feynman__title {
   position: relative;
-  text-align: center; 
+  text-align: center;
   width: 775px;
   top: 100px;
   margin-bottom: 70px;
@@ -212,7 +212,7 @@ ul {
   position: relative;
   text-align: center;
   line-height: 51px;
-  top: 70px; 
+  top: 70px;
   font-size: 36px;
   font-style: normal;
   z-index: 1;
@@ -230,7 +230,7 @@ ul {
 }
 
 .feynman__link::after {
-  content:"→"
+  content:"→";
 }
 
 .feynman__img {
