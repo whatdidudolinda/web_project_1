@@ -39,12 +39,6 @@
   margin-top: 30px;
   }
 
-  .header__text {
-    display: flex;
-    bottom: 0;
-  }
-
-
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   position: absolute;
@@ -75,6 +69,7 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
+  bottom: 0;
 }
 
 .header__link {
