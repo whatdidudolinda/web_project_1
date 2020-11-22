@@ -48,17 +48,17 @@
   height: 568px;
   background-color: #2f80ed;
   top: 64px;
-  right: 0px;
-  z-index: 0px;
+  right: 0;
+  z-index: 0;
 }
 
 .header__main-illustration {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   width: 765px;
   height: 608px;
-  z-index: 0px;
+
 }
 
 .header__subtitle {
@@ -182,6 +182,11 @@
   margin: 0px;
 }
 
+.table__text:last-of-type {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
 .table__cell {
   margin-top: 60px;
   flex-direction: column;
@@ -232,18 +237,18 @@
   color: black;
   margin-right: 48px;
   top: 50%;
-  right: 0px;
+  right: 0;
 }
 
 .feynman__img {
   display: flex;
   position: absolute;
   flex: initial;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
   width: 867px;
   height: 637px;
-  z-index: 0px;
+
 }
 
 /**************Kaufman Block**************/
@@ -259,7 +264,7 @@
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
-  z-index: 0px;
+  z-index: 0;
 }
 
 .table__cell_theme_dark {
@@ -286,7 +291,7 @@
 .kaufman__triangle {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
-  top: 0px;
+  top: 0;
   right: -210px;
   height: 877px;
   width: 877px;
