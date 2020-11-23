@@ -174,16 +174,10 @@
 }
 
 .table__text {
-  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0px;
-}
-
-.table__text:last-of-type {
-  margin-top: 20px;
-  margin-bottom: 0px;
+  margin: 20px 0 0;
 }
 
 .table__cell {
@@ -236,6 +230,7 @@
   margin-right: 48px;
   top: 50%;
   right: 0;
+  z-index: 2;
 }
 
 .feynman__img {
@@ -289,6 +284,7 @@
 .kaufman__triangle {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   top: 0;
   right: -210px;
   height: 877px;
