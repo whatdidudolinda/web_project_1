@@ -1,0 +1,12 @@
+@import url(/web_project_1/blocks/table/table__heading/table__heading.css);
+@import url(/web_project_1/blocks/table/table__cell/table__cell.css);
+@import url(/web_project_1/blocks/table/table__text/table__text.css);
+.table {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px auto;
+    padding: 0px;
+}

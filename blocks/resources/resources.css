@@ -1,0 +1,7 @@
+@import url(/web_project_1/blocks/resources/resources__logo-zone/resources__logo-zone.css);
+@import url(/web_project_1/blocks/resources/resources__logo/resources__logo.css);
+.resources {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 217px;
+}

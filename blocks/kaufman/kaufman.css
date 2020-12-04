@@ -1,0 +1,16 @@
+@import url(/web_project_1/blocks/_rotation/kaufman__triangle_rotation.css);
+@import url(/web_project_1/blocks/kaufman/_theme_dark/_theme_dark.css);
+@import url(/web_project_1/blocks/kaufman/kaufman__triangle/kaufman__triangle.css);
+.kaufman {
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    z-index: 0;
+}

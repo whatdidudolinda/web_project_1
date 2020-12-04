@@ -1,0 +1,13 @@
+.header__link {
+    color: #2f80ed;
+}
+
+.header__text::after {
+    content: "→";
+    color: #2f80ed;
+}
+
+.header__link:hover {
+    opacity: 1.0;
+    color: green;
+}

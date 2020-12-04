@@ -1,0 +1,18 @@
+@import url(/web_project_1/blocks/_rotation/header__square-pic_rotation.css);
+@import url(/web_project_1/blocks/header/header__title/header__title.css);
+@import url(/web_project_1/blocks/header/header__main-illustration/header__main-illustration.css);
+@import url(/web_project_1/blocks/header/header__square-pic/header__square-pic.css);
+@import url(/web_project_1/blocks/header/header__subtitle/header__subtitle.css);
+@import url(/web_project_1/blocks/header/logo_place_header/logo_place_header.css);
+@import url(/web_project_1/blocks/header/header__link/header__link.css);
+.header {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background: #f2f2f2;
+    overflow: hidden;
+    margin: auto;
+    /* parameters for the header section */
+}

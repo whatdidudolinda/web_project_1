@@ -1,0 +1,12 @@
+@import url(/web_project_1/blocks/feynman/feynman__img/feynman__img.css);
+@import url(/web_project_1/blocks/feynman/feynman__subtitle/feynman__subtitle.css);
+@import url(/web_project_1/blocks/feynman/feynman__title/feynman__title.css);
+@import url(/web_project_1/blocks/feynman/feynman__link/feynman__link.css);
+.feynman {
+    display: block;
+    min-height: 790px;
+    justify-content: center;
+    position: relative;
+    background: #f2f2f2;
+    padding-top: 80px;
+}
