@@ -1,9 +1,9 @@
-@import url(/web_project_1/blocks/footer/footer__author/footer__author.css);
-@import url(/web_project_1/blocks/footer/footer__column-links/footer__column-links.css);
-@import url(/web_project_1/blocks/footer/footer__columns/footer_columns.css);
-@import url(/web_project_1/blocks/footer/footer__link/footer_link.css);
-@import url(/web_project_1/blocks/footer/logo_place_footer/logo_place_footer.css);
-@import url(/web_project_1/blocks/footer/footer__social-icon/footer__social-icon.css);
+@import url(../footer/footer__author/footer__author.css);
+@import url(../footer/footer__column-links/footer__column-links.css);
+@import url(../footer/footer__columns/footer_columns.css);
+@import url(../footer/footer__link/footer_link.css);
+@import url(../footer/logo_place_footer/logo_place_footer.css);
+@import url(../footer/footer__social-icon/footer__social-icon.css);
 .footer {
     display: flex;
     position: relative;
