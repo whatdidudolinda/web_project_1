@@ -1,12 +1,25 @@
 # web_project_2
+Web Project 2
 
-Requirements
-(List the requirements for the project here, such as CMS, frameworks, plugins, etc.)
+Overview
 
-Project description. Describe the functionality, as well as the technologies used.
-Plans for finalizing the project, if any. Be specific. 
-Rather than simply writing "refactor code," say something like "fix X using Y in order to get Z." 
-The more detail, the better.
+This project has a mix of animations and BEM file structure. It showcases the simplicity and beauty of CSS & Animations. This project required BEM file structure, CSS animiations, and iFrame video container.
+
+Web Project 2 shows the diferent ways tables, shapes, and containers can be used. Starting from header with an animation that is also used for another image. This project showcases the different ways you can transform using animation with CSS. The use of iFrames inside its own container to overlay on top of the next container. My plans for this project is to fully understand and learn the technologies to enhance my future projects.
+
+Technologies
+
+HTML
+CSS
+BEM
+
+
+Supported Browsers
+
+Google Chrome
+Yandex
+Firefox
+
 
 Credits
 Built & Designed by Linda Huynh/Practicum by Yandex
