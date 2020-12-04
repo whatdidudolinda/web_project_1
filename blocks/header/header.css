@@ -1,10 +1,9 @@
-@import url(../_rotation/header__square-pic_rotation.css);
-@import url(../header/header__title/header__title.css);
-@import url(../header/header__main-illustration/header__main-illustration.css);
-@import url(../header/header__square-pic/header__square-pic.css);
-@import url(../header/header__subtitle/header__subtitle.css);
+@import url(../header/__title/header__title.css);
+@import url(../header/__main-illustration/header__main-illustration.css);
+@import url(../header/__square-pic/header__square-pic.css);
+@import url(../header/__subtitle/header__subtitle.css);
 @import url(../header/logo_place_header/logo_place_header.css);
-@import url(../header/header__link/header__link.css);
+@import url(../header/__link/header__link.css);
 .header {
     display: flex;
     position: relative;

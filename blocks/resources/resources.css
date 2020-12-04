@@ -1,5 +1,5 @@
-@import url(../resources/resources__logo-zone/resources__logo-zone.css);
-@import url(../resources/resources__logo/resources__logo.css);
+@import url(../resources/__logo-zone/resources__logo-zone.css);
+@import url(../resources/__logo/resources__logo.css);
 .resources {
     display: block;
     padding-top: 100px;
