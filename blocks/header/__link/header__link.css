@@ -4,11 +4,6 @@
     transition: opacity .2s linear;
 }
 
-.header__text::after {
-    content: "→";
-    color: #2f80ed;
-}
-
 .header__link:hover {
     opacity: 0.5;
     color: green;

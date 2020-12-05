@@ -9,7 +9,6 @@
 @import url(../khan/__buy-link/khan__buy-link.css);
 .khan {
     display: block;
-    min-height: 790px;
     justify-content: center;
     position: relative;
     background: #f2f2f2;

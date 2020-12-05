@@ -1,8 +1,6 @@
 @import url(../video/__iframe/video__iframe.css);
 @import url(../video/__iframes/video__iframes.css);
 .video {
-    display: absolute;
     margin-left: auto;
     margin-right: auto;
-    z-index: 1;
 }

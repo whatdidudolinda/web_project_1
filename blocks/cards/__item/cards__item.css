@@ -1,4 +1,12 @@
 .cards__item {
     margin-right: 100px;
-    width: 250px;
+    max-width: 200px;
+}
+
+.cards__item:nth-child(3) {
+    margin-right: 0;
+}
+
+.cards__item:last-child {
+    margin-right: 0;
 }
