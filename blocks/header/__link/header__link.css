@@ -1,6 +1,7 @@
 .header__link {
     color: #2f80ed;
     text-decoration: none;
+    transition: opacity .2s linear;
 }
 
 .header__text::after {
@@ -9,6 +10,6 @@
 }
 
 .header__link:hover {
-    opacity: 1.0;
+    opacity: 0.5;
     color: green;
 }

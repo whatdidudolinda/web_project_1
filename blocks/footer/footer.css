@@ -4,6 +4,7 @@
 @import url(../footer/__link/footer_link.css);
 @import url(../footer/logo_place_footer/logo_place_footer.css);
 @import url(../footer/__social-icon/footer__social-icon.css);
+@import url(../footer/___logo/__place/logo_place_footer.css);
 .footer {
     display: flex;
     position: relative;

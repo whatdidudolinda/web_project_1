@@ -8,5 +8,5 @@
     right: 0;
     overflow: hidden;
     z-index: 0;
-    animation: header__square-pic_rotation 20s infinite linear;
+    animation: rotation 20s infinite linear;
 }
